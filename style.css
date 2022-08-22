@@ -1,0 +1,87 @@
+
+body {
+	font-family:  'Overpass', sans-serif;
+	font-size: 18px;
+	color: rgb(30, 30, 30);
+	background-color: rgb(230, 230, 230);
+}
+
+h1, h2 {
+	font-family: 'Chivo', sans-serif;
+}
+
+a{
+	color: #0D1EC6;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: red;
+}
+
+.banner {  
+	background-image: url('background.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+}
+
+.banner h1 {
+	color: white;
+	font-size: 45px;
+}
+
+.banner p {
+	color:  white;
+	font-size:  24px;
+}
+
+.button-blue {
+	background-color: #1A48E3;
+	color: white;
+	padding: 16px 48px;
+	border-radius:  4px;
+	text-decoration: none;
+}
+
+.container {
+	padding: 50px 200px;
+	width: 800px;
+	margin: auto;
+}
+
+.card-white {
+	background: white;
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	width: 200px;
+	text-align: center;
+	padding: 24px;
+	margin: 8px;
+}
+
+.card-white img {
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+
+.footer {
+	background: #404042;
+	text-align: center;
+	padding: 24px 0;
+}
+
+.footer p {
+	color: white;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
